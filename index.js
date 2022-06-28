@@ -91,10 +91,11 @@ function isPowerOf2(n) {
   if (n < 2) {
     return 'number should be greater than 2';
   }
-  if (Math.sqrt(n) === Math.trunc(Math.sqrt(n))) {
+  // if (Math.sqrt(n) === Math.trunc(Math.sqrt(n))) {
+  if (n % 2 === 0) {
     return `given number '${n}' is PowerOf2`;
   } else {
     return `'${n}' not of PowerOf2`;
   }
 }
-console.log(isPowerOf2(12));
+console.log(isPowerOf2(5));
