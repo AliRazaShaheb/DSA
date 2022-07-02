@@ -10,5 +10,17 @@ export function PowerOf(n, p) {
     parr[i] = n;
   }
   const multiply = parr.reduce((acc, curr) => acc * curr);
-  return [...parr, multiply];
+  return `[${[...parr]}] = ${multiply}`;
+}
+
+export function isPowerOf2(n) {
+  if (n < 2) {
+    return 'number should be greater than 2';
+  }
+  // if (Math.sqrt(n) === Math.trunc(Math.sqrt(n))) {
+  if (n % 2 === 0) {
+    return `given number '${n}' is PowerOf2`;
+  } else {
+    return `'${n}' not of PowerOf2`;
+  }
 }
