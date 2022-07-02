@@ -18,6 +18,6 @@ appDiv.innerHTML = `<h1>DATA STRUCTURE & ALGORITHM</h1>`;
 // console.log(isPrimeNum(3));
 
 // Q4 - Power of Two
-console.log(PowerOf(2, 10));
-// Q4 - is power of two
+// console.log(PowerOf(2, 10));
+// Q5 - is power of two
 // console.log(isPowerOf2(99));
