@@ -17,14 +17,3 @@ export function isPrimeNum(n) {
   return 'yes this is prime number';
 }
 
-// option -2
-export function isPrimeNum(n) {
-  if (n < 2) {
-    return 'Number should be positive & more than 1';
-  }
-  while (n > 2) {
-    if (n % 2 !== 0) {
-      n;
-    }
-  }
-}
