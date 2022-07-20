@@ -1,11 +1,11 @@
 // Import stylesheets
-import './style.css';
-import { Fibonacci } from './DSA/fibonacci';
-import { Factorial } from './DSA/factorial';
-import { isPrimeNum } from './DSA/primeNumber';
-import { PowerOf, isPowerOf2 } from './DSA/powerOf';
+import "./style.css";
+import { Fibonacci } from "./DSA/fibonacci";
+import { Factorial } from "./DSA/factorial";
+import { isPrimeNum } from "./DSA/primeNumber";
+import { PowerOf, isPowerOf2 } from "./DSA/powerOf";
 // Write Javascript code!
-const appDiv = document.getElementById('app');
+const appDiv = document.getElementById("app");
 appDiv.innerHTML = `<h1>DATA STRUCTURE & ALGORITHM</h1>`;
 
 // Q1 - Fibonacci Number
@@ -19,5 +19,6 @@ appDiv.innerHTML = `<h1>DATA STRUCTURE & ALGORITHM</h1>`;
 
 // Q4 - Power of Two
 // console.log(PowerOf(2, 10));
+
 // Q5 - is power of two
 // console.log(isPowerOf2(99));
