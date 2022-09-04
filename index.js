@@ -6,6 +6,11 @@ import { isPrimeNum } from "./DSA/primeNumber";
 import { PowerOf, isPowerOf2 } from "./DSA/powerOf";
 import Stack from "./DSA/data-structure/stack";
 import Queue from "./DSA/data-structure/queue";
+import {
+  printLinkList,
+  Node,
+  printLinkListSum
+} from "./DSA/data-structure/link_list";
 // Write Javascript code!
 const appDiv = document.getElementById("app");
 appDiv.innerHTML = `<h1>DATA STRUCTURE & ALGORITHM</h1>`;
@@ -44,3 +49,18 @@ console.clear();
 // console.log(queue.print());
 // queue.enqueue("ali raza")
 // console.log(queue.isEmpty())
+
+// LINK LIST
+const a = new Node("10");
+const b = new Node("20");
+const c = new Node("30");
+const d = new Node("40");
+const e = new Node("50");
+
+a.next = b;
+b.next = c;
+c.next = d;
+d.next = e;
+
+console.log(printLinkList(a));
+console.log(printLinkListSum(a));
